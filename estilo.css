@@ -1,0 +1,85 @@
+
+  
+#padre {
+    border: 1px solid red;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    height: 905px;
+
+}
+
+#cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    background-image: url(img/fondo\ de\ pantalla.jpg);
+}
+
+#menu div {
+    margin: 5px;
+    color: azure;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+}
+
+#peliculas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+p {
+    color: azure;
+}
+
+#botones button {
+    background-color: red;
+    color: azure;
+    font-style: italic;
+}
+
+#botones {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#pie {
+    text-align: center;
+    align-items: center;
+    margin: 40px;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+
+}
+
+#epi1,
+#epi2,
+#epi3 {
+    color: red;
+    background-color: azure;
+    margin: 5px;
+}
+
+#titulo1 {
+    color: azure;
+    font-style: italic;
+}
